@@ -24,12 +24,12 @@ class classroom():
         self.capacity = capacity
         self.use = use
         self.working_space = working_space
-        print('Just created a classroom with a capacity of' + self.capacity +' which is used for ' +self.use+ ' the childrens work area is a ' + self.working_space)
+        print('Just created a classroom with a capacity of ' + self.capacity +' which is used for ' +self.use+ ' the childrens work area is a ' + self.working_space)
 class subject ():
     def __init__(self,name,numberStudents,):
         self.name = name
         self.numberStudents = numberStudents
-        print('Just created a class called '+ self.name +' there are '+self.numberStudents +'students enrolled')
+        print('Just created a class called '+ self.name +' there are '+self.numberStudents +' students enrolled')
 kintien = student('kintien','7th grade')
 sean = student('sean', '10th grade')
 douglas = student('douglas', '7th grade')
@@ -37,7 +37,7 @@ aungneraguh = student('augneraguh', '7th grade')
 karthic = student('karthic', '7th grade')
 malik = teacher('malik','computer programing')
 critosphere= classroom('24 people', 'teaching various things', 'table')
-py103 = subject('py103', x)
+py103 = subject('py103', '5')
 kintien.enroll(py103.name)
 sean.enroll(py103.name)
 douglas.enroll(py103.name)
